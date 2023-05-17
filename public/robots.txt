@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://simplus.website/sitemap.xml
+
+Disallow: /api/*
