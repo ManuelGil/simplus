@@ -5,9 +5,9 @@ import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { humanize } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 
-const { blog_folder } = config.settings;
-const tags = await getTaxonomy(blog_folder, "tags");
-const allTags = await getAllTaxonomy(blog_folder, "tags");
+const { communities_folder } = config.settings;
+const tags = await getTaxonomy(communities_folder, "tags");
+const allTags = await getAllTaxonomy(communities_folder, "tags");
 ---
 
 <Base title={"Tags"}>

@@ -1,11 +1,11 @@
 // similer products
 const similerItems = (currentItem: any, allItems: any, slug: string) => {
-  let projects: [] = [];
+  let categories: [] = [];
   let tags: [] = [];
 
-  // set projects
-  if (currentItem.data.projects.length > 0) {
-    projects = currentItem.data.projects;
+  // set categories
+  if (currentItem.data.categories.length > 0) {
+    categories = currentItem.data.categories;
   }
 
   // set tags
@@ -13,10 +13,10 @@ const similerItems = (currentItem: any, allItems: any, slug: string) => {
     tags = currentItem.data.tags;
   }
 
-  // filter by projects
+  // filter by categories
   const filterByCategories = allItems.filter(
-    (item: { data: { projects: string } }) =>
-      projects.find((category) => item.data.projects.includes(category))
+    (item: { data: { categories: string } }) =>
+      categories.find((category) => item.data.categories.includes(category))
   );
 
   // filter by tags

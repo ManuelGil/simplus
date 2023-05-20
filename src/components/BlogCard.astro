@@ -1,12 +1,12 @@
 ---
-import { Image } from "@astrojs/image/components";
 import config from "@/config/config.json";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
-import { FaRegFolder, FaRegUserCircle } from "react-icons/fa/index.js";
+import { Image } from "@astrojs/image/components";
+import { FaRegFolder } from "react-icons/fa/index.js";
 
-const { summary_length, blog_folder } = config.settings;
+const { summary_length, communities_folder } = config.settings;
 const { data } = Astro.props;
-const { title, image, date, author, categories } = data.data;
+const { title, image, date, creator, categories } = data.data;
 ---
 
 <div class="bg-body dark:bg-darkmode-body">
@@ -22,17 +22,11 @@ const { title, image, date, author, categories } = data.data;
     )
   }
   <h4 class="mb-3">
-    <a href={`/${blog_folder}/${data.slug}`}>
+    <a href={`/${communities_folder}/${data.slug}`}>
       {title}
     </a>
   </h4>
   <ul class="mb-4">
-    <li class="mr-4 inline-block">
-      <a href={`/authors/${slugify(author)}`}>
-        <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
-        {humanize(author)}
-      </a>
-    </li>
     <li class="mr-4 inline-block">
       <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
       {
@@ -48,7 +42,7 @@ const { title, image, date, author, categories } = data.data;
   <p class="mb-6">{plainify(data.body?.slice(0, Number(summary_length)))}</p>
   <a
     class="btn btn-outline-primary btn-sm"
-    href={`/${blog_folder}/${data.slug}`}
+    href={`/${communities_folder}/${data.slug}`}
   >
     read more
   </a>

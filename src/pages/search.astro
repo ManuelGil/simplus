@@ -4,13 +4,13 @@ import Base from "@/layouts/Base.astro";
 import Search from "@/layouts/Search";
 import { getSinglePage } from "@/lib/contentParser.astro";
 
-const { blog_folder } = config.settings;
+const { communities_folder } = config.settings;
 
 // Retrieve all articles
-const posts = await getSinglePage(blog_folder);
+const communities = await getSinglePage(communities_folder);
 
 // List of items to search in
-const searchList = posts.map((item) => ({
+const searchList = communities.map((item) => ({
   slug: item.slug,
   data: item.data,
   content: item.body,

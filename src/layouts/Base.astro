@@ -1,4 +1,5 @@
 ---
+import Favicon from "@/components/Favicon.astro";
 import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
@@ -48,8 +49,16 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- google font css -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect dns-prefetch"
+      href="https://fonts.googleapis.com"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect dns-prefetch"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
     <link
       href={`https://fonts.googleapis.com/css2?family=${pf}${
         sf ? "&family=" + sf : ""
@@ -66,11 +75,11 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- keywords -->
     <meta
       name="keywords"
-      content="Project Connect, creators, communities, projects, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
+      content="Simplus, creators, communities, categories, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
     />
     <meta
       name="news_keywords"
-      content="Project Connect, creators, communities, projects, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
+      content="Simplus, creators, communities, categories, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
     />
 
     <!-- title -->
@@ -83,6 +92,13 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
+
+    <!-- Favicon -->
+    <Favicon />
+    <link rel="mask-icon" href="/favicon.ico" />
+
+    <!-- Sitemap -->
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- meta-description -->
     <meta

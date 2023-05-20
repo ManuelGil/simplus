@@ -1,0 +1,30 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import CommunitySingle from "@/layouts/CommunitySingle.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+
+export async function getStaticPaths() {
+  const communities = await getSinglePage(config.settings.communities_folder);
+
+  const paths = communities.map((community) => ({
+    params: {
+      single: community.slug,
+    },
+    props: { community },
+  }));
+  return paths;
+}
+
+const { community } = Astro.props;
+const { title, meta_title, description, image } = community.data;
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <CommunitySingle community={community} />
+</Base>

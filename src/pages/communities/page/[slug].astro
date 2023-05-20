@@ -1,0 +1,80 @@
+---
+import BlogCard from "@/components/BlogCard.astro";
+import Pagination from "@/components/Pagination.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import PageHeader from "@/partials/PageHeader.astro";
+import CommunitySidebar from "@/partials/CommunitySidebar.astro";
+import { getEntryBySlug } from "astro:content";
+
+const { communities_folder } = config.settings;
+const { slug } = Astro.params;
+const communityIndex = await getEntryBySlug<any, string>(communities_folder, "-index");
+const communities = await getSinglePage(communities_folder);
+const allCategories = await getAllTaxonomy(communities_folder, "categories");
+const categories = await getTaxonomy(communities_folder, "categories");
+const tags = await getTaxonomy(communities_folder, "tags");
+const sortedCommunities = sortByDate(communities);
+const totalPages = Math.ceil(communities.length / config.settings.pagination);
+const currentPage = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
+const indexOfLastCommunity = currentPage * config.settings.pagination;
+const indexOfFirstCommunity = indexOfLastCommunity - config.settings.pagination;
+const currentCommunities = sortedCommunities.slice(indexOfFirstCommunity, indexOfLastCommunity);
+
+export async function getStaticPaths() {
+  const communities = await getSinglePage(config.settings.communities_folder);
+  const totalPages = Math.ceil(communities.length / config.settings.pagination);
+  const paths = [];
+
+  for (let i = 1; i < totalPages; i++) {
+    paths.push({
+      params: {
+        slug: (i + 1).toString(),
+      },
+    });
+  }
+  return paths;
+}
+---
+
+<Base
+  title={communityIndex.data.title}
+  meta_title={communityIndex.data.meta_title}
+  image={communityIndex.data.image}
+  description={communityIndex.data.description}
+>
+  <PageHeader title={communityIndex.data.title} />
+  <section class="section">
+    <div class="container">
+      <div class="row gx-5">
+        <!-- communities -->
+        <div class="lg:col-8">
+          <div class="row">
+            {
+              currentCommunities.map((community) => (
+                <div class="mb-14 md:col-6">
+                  <BlogCard data={community} />
+                </div>
+              ))
+            }
+          </div>
+          <Pagination
+            section={communities_folder}
+            currentPage={currentPage}
+            totalPages={totalPages}
+          />
+        </div>
+
+        <!-- sidebar -->
+        <CommunitySidebar
+          categories={categories}
+          tags={tags}
+          allCategories={allCategories}
+        />
+      </div>
+    </div>
+  </section>
+</Base>

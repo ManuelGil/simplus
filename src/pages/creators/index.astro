@@ -5,19 +5,22 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 import { getEntryBySlug } from "astro:content";
 
-const authorIndex = await getEntryBySlug<any, string>("authors", "-index");
-const authors = await getSinglePage("authors");
+const creatorIndex = await getEntryBySlug<any, string>("creators", "-index");
+const creators = await getSinglePage("creators");
 ---
 
-<Base title={authorIndex.data.title}>
-  <PageHeader title={authorIndex.data.title} />
+<Base
+  title={creatorIndex.data.title}
+  description={creatorIndex.data.description}
+>
+  <PageHeader title={creatorIndex.data.title} />
   <section class="section-sm pb-0">
     <div class="container">
       <div class="row justify-center">
         {
-          authors.map((author) => (
+          creators.map((creator) => (
             <div class="mb-14 md:col-6 lg:col-4">
-              <AuthorCard data={author} />
+              <AuthorCard data={creator} />
             </div>
           ))
         }

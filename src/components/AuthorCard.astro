@@ -22,10 +22,15 @@ const { title, image, social } = data.data;
     )
   }
   <h4 class="mb-3">
-    <a href={`/authors/${data.slug}`}>{title}</a>
+    <a href={`/creators/${data.slug}`}>{title}</a>
   </h4>
   <p class="mb-4">
     {plainify(data.body?.slice(0, 100))}
   </p>
-  <Social source={social} className="social-icons" />
+  <a
+    class="btn btn-outline-primary btn-sm"
+    href={`/creators/${data.slug}`}
+  >
+    read more
+  </a>
 </div>

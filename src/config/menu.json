@@ -6,15 +6,11 @@
     },
     {
       "name": "Communities",
-      "url": "/posts"
-    },
-    {
-      "name": "Projects",
-      "url": "/projects"
+      "url": "/communities"
     },
     {
       "name": "Creators",
-      "url": "/authors"
+      "url": "/creators"
     }
   ],
   "footer": [

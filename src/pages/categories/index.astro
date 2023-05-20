@@ -5,9 +5,9 @@ import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { humanize } from "@/lib/utils/textConverter";
 import PageHeader from "@/partials/PageHeader.astro";
 
-const { blog_folder } = config.settings;
-const projects = await getTaxonomy(blog_folder, "projects");
-const allCategories = await getAllTaxonomy(blog_folder, "projects");
+const { communities_folder } = config.settings;
+const categories = await getTaxonomy(communities_folder, "categories");
+const allCategories = await getAllTaxonomy(communities_folder, "categories");
 ---
 
 <Base title={"Categories"}>
@@ -16,12 +16,12 @@ const allCategories = await getAllTaxonomy(blog_folder, "projects");
     <div class="container text-center">
       <ul class="space-x-4">
         {
-          projects.map((category: any) => {
+          categories.map((category: any) => {
             const count = allCategories.filter((c) => c === category).length;
             return (
               <li class="inline-block">
                 <a
-                  href={`/projects/${category}`}
+                  href={`/categories/${category}`}
                   class="rounded bg-theme-light px-4 py-2 text-xl text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark"
                 >
                   {humanize(category)}{" "}

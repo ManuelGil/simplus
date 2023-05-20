@@ -8,7 +8,7 @@ import taxonomyFilter from "@/lib/utils/taxonomyFilter";
 import PageHeader from "@/partials/PageHeader.astro";
 
 export async function getStaticPaths() {
-  const tags = await getTaxonomy(config.settings.blog_folder, "tags");
+  const tags = await getTaxonomy(config.settings.communities_folder, "tags");
 
   return tags.map((tag) => {
     return {
@@ -18,8 +18,8 @@ export async function getStaticPaths() {
 }
 
 const { tag } = Astro.params;
-const posts = await getSinglePage(config.settings.blog_folder);
-const filterByCategories = taxonomyFilter(posts, "tags", tag);
+const communities = await getSinglePage(config.settings.communities_folder);
+const filterByCategories = taxonomyFilter(communities, "tags", tag);
 ---
 
 <Base title={tag}>
@@ -28,9 +28,9 @@ const filterByCategories = taxonomyFilter(posts, "tags", tag);
     <div class="container">
       <div class="row">
         {
-          filterByCategories.map((post) => (
+          filterByCategories.map((community) => (
             <div class="mb-14 md:col-6 lg:col-4">
-              <BlogCard data={post} />
+              <BlogCard data={community} />
             </div>
           ))
         }

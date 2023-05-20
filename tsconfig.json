@@ -7,7 +7,7 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "@/function-components/*": ["./src/layouts/function-components/*"],
-      "@/components/*": ["./src/layouts/components/*"],
+      "@/components/*": ["./src/components/*"],
       "@/shortcodes/*": ["./src/layouts/shortcodes/*"],
       "@/partials/*": ["./src/layouts/partials/*"],
       "@/layouts/*": ["./src/layouts/*"],

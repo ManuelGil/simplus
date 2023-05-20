@@ -8,7 +8,7 @@ import {
   FaSearch,
 } from "react-icons/fa/index.js";
 
-const { summary_length, blog_folder } = config.settings;
+const { summary_length, communities_folder } = config.settings;
 
 export type SearchItem = {
   slug: string;
@@ -35,7 +35,7 @@ const Search = ({ searchList }: Props) => {
   };
 
   const fuse = new Fuse(searchList, {
-    keys: ["data.title", "data.projects", "data.tags"],
+    keys: ["data.title", "data.categories", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 3,
     threshold: 0.5,
@@ -75,7 +75,7 @@ const Search = ({ searchList }: Props) => {
             <div className="flex flex-nowrap">
               <input
                 className="form-input rounded-r-none"
-                placeholder="Search posts"
+                placeholder="Search communities"
                 type="search"
                 name="search"
                 value={inputVal}
@@ -109,11 +109,11 @@ const Search = ({ searchList }: Props) => {
                 alt="no-search-found"
               />
               <h1 className="h2 mb-4">
-                {inputVal.length < 1 ? "Search Post Here" : "No Search Found!"}
+                {inputVal.length < 1 ? "Search Community Here" : "No Search Found!"}
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Search for posts by title, category, or tag."
+                  ? "Search for communities by title, category, or tag."
                   : "We couldn't find what you searched for. Try searching again."}
               </p>
             </div>
@@ -131,29 +131,29 @@ const Search = ({ searchList }: Props) => {
                     />
                   )}
                   <h4 className="mb-3">
-                    <a href={`/${blog_folder}/${item.slug}`}>
+                    <a href={`/${communities_folder}/${item.slug}`}>
                       {item.data.title}
                     </a>
                   </h4>
                   <ul className="mb-4">
                     <li className="mr-4 inline-block">
-                      <a href={`/authors/${slugify(item.data.author)}`}>
+                      <a href={`/creators/${slugify(item.data.creator)}`}>
                         <FaRegUserCircle
                           className={"-mt-1 mr-2 inline-block"}
                         />
-                        {humanize(item.data.author)}
+                        {humanize(item.data.creator)}
                       </a>
                     </li>
                     <li className="mr-4 inline-block">
                       <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
-                      {item.data.projects.map(
+                      {item.data.categories.map(
                         (category: string, index: number) => (
                           <a
-                            href={`/projects/${slugify(category)}`}
+                            href={`/categories/${slugify(category)}`}
                             key={category}
                           >
                             {humanize(category)}
-                            {index !== item.data.projects.length - 1 && ", "}
+                            {index !== item.data.categories.length - 1 && ", "}
                           </a>
                         )
                       )}
@@ -164,7 +164,7 @@ const Search = ({ searchList }: Props) => {
                   </p>
                   <a
                     className="btn btn-outline-primary btn-sm"
-                    href={`/${blog_folder}/${item.slug}`}
+                    href={`/${communities_folder}/${item.slug}`}
                   >
                     read more
                   </a>

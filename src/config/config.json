@@ -18,13 +18,13 @@
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 4,
-    "summary_length": 100,
-    "blog_folder": "posts"
+    "summary_length": 200,
+    "communities_folder": "communities"
   },
 
   "params": {
-    "contact_form_action": "#",
-    "copyright": "Developed by [Manuel Gil](https://manuelgil.dev)"
+    "contact_form_action": "https://manuelgil.dev/",
+    "copyright": "Make with ♥ by [Manuel Gil](https://manuelgil.dev)"
   },
 
   "navigation_button": {
@@ -42,6 +42,6 @@
   "metadata": {
     "meta_author": "Manuel Gil",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Simplus is your platform to explore, connect and grow. Discover, connect with communities, share your ideas and grow with other creators. We make connecting simpler, here simplicity and creativity meet."
   }
 }

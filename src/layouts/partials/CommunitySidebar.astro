@@ -1,17 +1,17 @@
 ---
 import { humanize } from "@/lib/utils/textConverter";
 
-const { tags, projects, allCategories } = Astro.props;
+const { tags, categories, allCategories } = Astro.props;
 ---
 
 <div class="lg:col-4">
-  <!-- projects -->
+  <!-- categories -->
   <div class="mb-8">
     <h5 class="mb-6">Categories</h5>
     <div class="rounded bg-theme-light p-8 dark:bg-darkmode-theme-light">
       <ul class="space-y-4">
         {
-          projects.map((category: any) => {
+          categories.map((category: any) => {
             const count = allCategories.filter(
               (c: any) => c === category
             ).length;
@@ -19,7 +19,7 @@ const { tags, projects, allCategories } = Astro.props;
               <li>
                 <a
                   class="flex justify-between hover:text-primary dark:hover:text-darkmode-primary"
-                  href={`/projects/${category}`}
+                  href={`/categories/${category}`}
                 >
                   {humanize(category)} <span>({count})</span>
                 </a>

@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const config = require("../src/config/config.json");
-const { blog_folder } = config.settings;
+const { communities_folder } = config.settings;
 const jsonDir = "./.json";
 
 // get data from markdown
@@ -28,8 +28,8 @@ const getData = (folder) => {
   return publishedPages;
 };
 
-// get post data
-const posts = getData(`src/content/${blog_folder}`);
+// get communities data
+const communities = getData(`src/content/${communities_folder}`);
 
 try {
   // creare folder if it doesn't exist
@@ -37,8 +37,8 @@ try {
     fs.mkdirSync(jsonDir);
   }
 
-  // create posts.json file
-  fs.writeFileSync(`${jsonDir}/posts.json`, JSON.stringify(posts));
+  // create communities.json file
+  fs.writeFileSync(`${jsonDir}/communities.json`, JSON.stringify(communities));
 } catch (err) {
   console.error(err);
 }

@@ -1,0 +1,42 @@
+---
+title: Serudda
+image: "/images/avatar.png"
+description: Serudda is a Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR.
+social:
+  facebook: ""
+  twitter: "https://twitter.com/serudda"
+  mastodon: ""
+  instagram: "https://www.instagram.com/serudda"
+  youtube: "https://www.youtube.com/@serudda"
+  linkedin: ""
+  twitch: "https://www.twitch.tv/serudda"
+  github: "https://github.com/serudda"
+  gitlab: ""
+  discord: "https://discord.com/invite/77guznJ8mZ"
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: ""
+---
+
+Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR. 🤖 http://twon.app
+🛠️ Creating with the community: http://twitch.tv/serudda

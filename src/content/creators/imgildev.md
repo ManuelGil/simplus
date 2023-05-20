@@ -1,0 +1,41 @@
+---
+title: Manuel Gil
+image: "https://www.gravatar.com/avatar/55ae77beb9988bf27d7a4ecf007e3cf6?s=500"
+description: Manuel Gil is a dev & content creator with extensive experience in TypeScript, Angular, Nestjs, and PHP. I'm passionate about Open Source.
+social:
+  facebook: ""
+  twitter: "https://twitter.com/imgildev"
+  mastodon: ""
+  instagram: ""
+  youtube: "https://www.youtube.com/@imgildev"
+  linkedin: ""
+  twitch: "https://www.twitch.tv/imgildev"
+  github: "https://github.com/ManuelGil"
+  gitlab: "https://github.com/imgildev"
+  discord: ""
+  slack: ""
+  medium: "https://medium.com/@imgildev"
+  devto: "https://dev.to/imgildev"
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  tumblr: ""
+  reddit: "https://www.reddit.com/user/imgildev"
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: "https://manuelgil.dev"
+---
+
+A dev & content creator with extensive experience in TypeScript, Angular, Nestjs, and PHP. I'm passionate about Open Source.
