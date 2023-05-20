@@ -1,0 +1,46 @@
+---
+title: Luisina TodoCode
+meta_title: "Luisina TodoCode | Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS"
+image: "https://pbs.twimg.com/profile_images/1612820988600766467/XFLaYqxC_400x400.jpg"
+description: Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS.
+tags: ["Spanish", "Argentina", "Technology", "Education", "Pets", "Gaming", "Development"]
+social:
+  facebook: ""
+  twitter: "https://twitter.com/todo_code"
+  mastodon: ""
+  instagram: "https://instagram.com/todo_code"
+  youtube: "https://www.youtube.com/TodoCode"
+  linkedin: ""
+  twitch: "https://twitch.tv/todocode"
+  github: ""
+  gitlab: ""
+  telegram: ""
+  discord: "https://discord.gg/MqVqXD2MfR"
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: ""
+---
+
+Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS.

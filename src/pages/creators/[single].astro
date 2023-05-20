@@ -1,11 +1,11 @@
 ---
-import { Image } from "@astrojs/image/components";
 import BlogCard from "@/components/BlogCard.astro";
 import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
-import { slugify } from "@/lib/utils/textConverter";
+import { humanize, slugify } from "@/lib/utils/textConverter";
+import { Image } from "@astrojs/image/components";
 
 export async function getStaticPaths() {
   const creators = await getSinglePage("creators");
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 
 const { communities_folder } = config.settings;
 const { creator } = Astro.props;
-const { title, social, meta_title, description, image } = creator.data;
+const { title, tags, social, meta_title, description, image } = creator.data;
 const { Content } = await creator.render();
 const communities = await getSinglePage(communities_folder);
 const communityFilterByAuthor = communities.filter(
@@ -53,10 +53,17 @@ const communityFilterByAuthor = communities.filter(
             )
           }
           <h1 class="h3 mb-6">{title}</h1>
-          <Social source={social} className="social-icons" />
+          <ul class="mb-4">
+            {
+              tags.map((tag: string) => (
+                <li class="mr-4 inline-block">#{humanize(tag)}</li>
+              ))
+            }
+          </ul>
           <div class="content">
             <Content />
           </div>
+          <Social source={social} className="social-icons" />
         </div>
       </div>
 

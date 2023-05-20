@@ -1,7 +1,9 @@
 ---
 title: Manuel Gil
+meta_title: "Manuel Gil | Dev & content creator"
 image: "https://www.gravatar.com/avatar/55ae77beb9988bf27d7a4ecf007e3cf6?s=500"
 description: Manuel Gil is a dev & content creator with extensive experience in TypeScript, Angular, Nestjs, and PHP. I'm passionate about Open Source.
+tags: ["Spanish", "Colombia", "Technology", "Gaming", "Web Development"]
 social:
   facebook: ""
   twitter: "https://twitter.com/imgildev"

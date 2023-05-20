@@ -58,8 +58,10 @@ const communitiesCollection = defineCollection({
 const creatorsCollection = defineCollection({
   schema: z.object({
     title: z.string(),
+    meta_title: z.string().optional(),
     image: z.string().optional(),
     description: z.string().optional(),
+    tags: z.array(z.string()).default(["others"]),
     social: z
       .object({
         facebook: z.string().optional(),

@@ -1,5 +1,6 @@
 ---
 title: "Indie Creators HD"
+meta_title: "Indie Creators HD | The biggest Hispanic Indie Creators Community"
 description: "The biggest Hispanic Indie Creators Community"
 image: "/images/image-placeholder.png"
 categories: ["Spanish"]

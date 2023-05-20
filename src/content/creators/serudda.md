@@ -1,7 +1,9 @@
 ---
 title: Serudda
+meta_title: "Serudda | Frontend Dev + UX/UI Designer"
 image: "/images/avatar.png"
 description: Serudda is a Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR.
+tags: ["Spanish", "Colombia", "Technology"]
 social:
   facebook: ""
   twitter: "https://twitter.com/serudda"
