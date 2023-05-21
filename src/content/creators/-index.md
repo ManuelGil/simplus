@@ -1,5 +1,5 @@
 ---
 title: "Creators"
 meta_title: ""
-description: "this is meta description"
+description: "Meet the creators and connect with them in a simple way."
 ---

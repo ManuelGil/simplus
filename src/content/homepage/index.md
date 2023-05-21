@@ -6,8 +6,8 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Join The Waitlist"
-    link: "https://forms.gle/iHYq7bJSQEn1EkXt9"
+    label: "Get Started"
+    link: "/communities"
 
 # Features
 features:

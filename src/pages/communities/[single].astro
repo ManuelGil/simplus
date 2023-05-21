@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { community } = Astro.props;
-const { title, meta_title, description, image } = community.data;
+const { title, meta_title, description, image, keywords } = community.data;
 ---
 
 <Base
@@ -25,6 +25,7 @@ const { title, meta_title, description, image } = community.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  keywords={keywords}
 >
   <CommunitySingle community={community} />
 </Base>

@@ -2,8 +2,9 @@
 title: Malpicado
 meta_title: "Malpicado | A pickle learning programming from scratch"
 image: "https://pbs.twimg.com/profile_images/1445984910318133249/ZjiPfsHx_400x400.jpg"
-description: A pickle learning programming from scratch.
+description: Malpicado is a pickle learning programming from scratch.
 tags: ["Spanish", "Global", "Entertainment", "Gaming", "Technology", "Education", "Programming"]
+keywords: "Spanish, Global, Entertainment, Gaming, Technology, Education, Programming, Malpicado, A pickle, Learning programming from scratch, Marketing, Management, Development, Tech companies, Learn to program, Streamline work, Create own tools, Content sharing, Learning process, Community, Stream"
 social:
   facebook: ""
   twitter: "https://twitter.com/malpicado"

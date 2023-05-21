@@ -2,8 +2,9 @@
 title: Luisina TodoCode
 meta_title: "Luisina TodoCode | Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS"
 image: "https://pbs.twimg.com/profile_images/1612820988600766467/XFLaYqxC_400x400.jpg"
-description: Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS.
+description: TodoCode is a Community dedicated to teaching programming in a didactic and simple way WITHOUT DIFFICULT WORDS.
 tags: ["Spanish", "Argentina", "Technology", "Education", "Pets", "Gaming", "Development"]
+keywords: "Spanish, Argentina, Technology, Education, Pets, Gaming, Development, Luisina, TodoCode, Community, Teaching programming, Didactic, Simple way, Without difficult words"
 social:
   facebook: ""
   twitter: "https://twitter.com/todo_code"

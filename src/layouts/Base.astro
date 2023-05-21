@@ -20,10 +20,11 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
+  keywords?: string;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, description, image, noindex, canonical, keywords } =
   Astro.props;
 ---
 
@@ -73,14 +74,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
 
     <!-- keywords -->
-    <meta
-      name="keywords"
-      content="Simplus, creators, communities, categories, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
-    />
-    <meta
-      name="news_keywords"
-      content="Simplus, creators, communities, categories, visibility, collaboration, technology, innovation, showcase, arts, music, writing, feedback, support, vibrant communities, collaboration, diverse groups, shared interests, discussion forums, collaborative tools, educational content, mentorship programs, funding opportunities, empowerment, creativity, future, discovery, shaping the future, vibrant communities"
-    />
+    {keywords && <meta name="keywords" content={keywords} />}
 
     <!-- title -->
     <title>

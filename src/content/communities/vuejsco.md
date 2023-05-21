@@ -5,6 +5,7 @@ description: "Group to promote the Vue.js framework in Colombia."
 image: "/images/image-placeholder.png"
 categories: ["Spanish"]
 tags: ["Colombia", "Technology", "Development", "VueJS", "Open Source"]
+keywords: "Colombia, Technology, Development, VueJS, Open Source, Vue.js Colombia, Group, Promote, Vue.js framework, JS enthusiasts, Share, Learn, Community, Experiences"
 social:
   facebook: ""
   twitter: "https://twitter.com/vuejs_co"

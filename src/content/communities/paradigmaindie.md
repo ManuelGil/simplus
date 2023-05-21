@@ -1,9 +1,11 @@
 ---
 title: "Paradigma Indie"
+meta_title: "Paradigma Indie | We create community and share Tech topics in a unique and fun way"
 description: "We create community and share Tech topics in a unique and fun way."
 image: "https://pbs.twimg.com/profile_banners/1341425080941899777/1618972783/1500x500"
 categories: ["Spanish"]
 tags: ["Global", "Technology", "Development", "Podcast"]
+keywords: "Global, Technology, Development, Podcast, Paradigma Indie, community, share Tech topics, IT area, programmers, Manuel Gil, Marco Mireles, Santiago Rey, contribute to the community"
 social:
   facebook: ""
   twitter: "https://twitter.com/IndieParadigma"

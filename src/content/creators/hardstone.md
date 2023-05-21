@@ -1,9 +1,10 @@
 ---
 title: Paul Suarez
-meta_title: "HardStone | Web Designer, Web Developer, HTML CSS Gamer"
+meta_title: "Paul Suarez | Web Designer, Web Developer, HTML CSS Gamer"
 image: "https://media.licdn.com/dms/image/C4E03AQGmCDdcURlZJA/profile-displayphoto-shrink_100_100/0/1581430512187?e=1689811200&v=beta&t=y1HReb1LM1hES6zKXCC6f2HBNeOPTEEccY3yu7axmdQ"
-description: Web Designer, Web Developer, HTML CSS Gamer.
+description: Paul Suarez is a Web Designer, Web Developer, HTML CSS Gamer.
 tags: ["Spanish", "Colombia", "Music", "Gaming", "Technology", "Design", "Arts"]
+keywords: "Spanish, Colombia, Music, Gaming, Technology, Design, Arts, HardStone, Paul Suarez, Web Designer, Web Developer, HTML, CSS, Gamer, Convert sketches to Designs, Designs to Code, Ideas"
 social:
   facebook: ""
   twitter: ""

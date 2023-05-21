@@ -7,7 +7,7 @@ const communitiesCollection = defineCollection({
     meta_title: z.string().optional(),
     description: z.string().optional(),
     image: z.string().optional(),
-    creator: z.string().default("Admin"),
+    keywords: z.string().default("community"),
     categories: z.array(z.string()).default(["others"]),
     tags: z.array(z.string()).default(["others"]),
     social: z
@@ -62,6 +62,7 @@ const creatorsCollection = defineCollection({
     title: z.string(),
     meta_title: z.string().optional(),
     image: z.string().optional(),
+    keywords: z.string().default("creator"),
     description: z.string().optional(),
     tags: z.array(z.string()).default(["others"]),
     social: z

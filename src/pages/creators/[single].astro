@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 
 const { communities_folder } = config.settings;
 const { creator } = Astro.props;
-const { title, tags, social, meta_title, description, image } = creator.data;
+const { title, tags, social, meta_title, description, image, keywords } = creator.data;
 const { Content } = await creator.render();
 const communities = await getSinglePage(communities_folder);
 const communityFilterByAuthor = communities.filter(
@@ -34,6 +34,7 @@ const communityFilterByAuthor = communities.filter(
   meta_title={meta_title}
   description={description}
   image={image}
+  keywords={keywords}
 >
   <section class="section-sm pb-0">
     <div class="container">

@@ -1,10 +1,11 @@
 ---
 title: "CiHispano"
-meta_title: "CiHispano | Cihispano is the Hispanic community of @CodeIgniter the lightest PHP framework, built for developers who need a toolkit."
+meta_title: "CiHispano | Cihispano is the Hispanic community of @CodeIgniter the lightest PHP framework, built for developers who need a toolkit"
 description: "Cihispano is the Hispanic community of @CodeIgniter the lightest PHP framework, built for developers who need a toolkit."
 image: "https://www.cihispano.org/assets/img/logo-cihispano.png"
 categories: ["Spanish"]
 tags: ["Global", "Technology", "Development", "CodeIgniter"]
+keywords: "Global, Technology, Development, CodeIgniter, Cihispano, Hispanic community, PHP framework, Lightest, Developers, Toolkit"
 social:
   facebook: ""
   twitter: "https://twitter.com/CiHispano"

@@ -3,18 +3,19 @@ title: Manuel Gil
 meta_title: "Manuel Gil | Dev & content creator"
 image: "https://www.gravatar.com/avatar/55ae77beb9988bf27d7a4ecf007e3cf6?s=500"
 description: Manuel Gil is a dev & content creator with extensive experience in TypeScript, Angular, Nestjs, and PHP. I'm passionate about Open Source.
-tags: ["Spanish", "Colombia", "Technology", "Gaming", "Web Development"]
+tags: ["Spanish", "Colombia", "Technology", "Gaming", "Web Development", "Open Source"]
+keywords: "Spanish, Colombia, Technology, Gaming, Web Development, Manuel Gil, Dev, Content creator, Software developer, TypeScript, Angular, Nestjs, Go, Java, PHP, Programming languages, C++, Open Source"
 social:
   facebook: ""
   twitter: "https://twitter.com/imgildev"
   mastodon: ""
   instagram: ""
   youtube: "https://www.youtube.com/@imgildev"
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/imgildev"
   twitch: "https://www.twitch.tv/imgildev"
   github: "https://github.com/ManuelGil"
   gitlab: "https://github.com/imgildev"
-  telegram: ""
+  telegram: "https://t.me/imgildev"
   discord: ""
   slack: ""
   medium: "https://medium.com/@imgildev"
@@ -43,4 +44,4 @@ social:
   website: "https://manuelgil.dev"
 ---
 
-A dev & content creator with extensive experience in TypeScript, Angular, Nestjs, and PHP. I'm passionate about Open Source.
+👋 Hi! I'm Manuel Gil, a software developer and content creator with 8 years of experience in the industry. I specialize in using technologies like TypeScript, Angular, Nestjs, Go, Java and PHP.

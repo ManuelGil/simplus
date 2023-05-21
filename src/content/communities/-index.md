@@ -1,5 +1,5 @@
 ---
 title: "Communities"
 meta_title: ""
-description: "this is meta description"
+description: "Search, find and connect with a community that matches your interests."
 ---

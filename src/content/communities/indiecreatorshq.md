@@ -5,6 +5,7 @@ description: "The biggest Hispanic Indie Creators Community"
 image: "/images/image-placeholder.png"
 categories: ["Spanish"]
 tags: ["Global", "Technology", "Development", "Side Projects"]
+keywords: "Global, Technology, Development, Side Projects, Indie Creators HD, Hispanic Indie Creators Community, Independent Creators, Hispanics, Talent, Sleeping giant, Community growth, Serudda, Creator, Start creating, Largest Hispanic communities, Love for creating, Curiosity"
 social:
   facebook: ""
   twitter: "https://twitter.com/IndieCreatorsHQ"

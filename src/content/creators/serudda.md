@@ -1,9 +1,10 @@
 ---
 title: Serudda
 meta_title: "Serudda | Frontend Dev + UX/UI Designer"
-image: "/images/avatar.png"
+image: "https://pbs.twimg.com/profile_images/1645933911514681345/zrDbFWCT_400x400.jpg"
 description: Serudda is a Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR.
 tags: ["Spanish", "Colombia", "Technology"]
+keywords: "Spanish, Colombia, Technology, Serudda, Frontend Dev, UX/UI Designer, Creating with the community, Twitch, Developer, User Experience, User Interface, Design, Web Development, Professional Development, Career Growth, Coding, Programming, Frontend Design, Community Collaboration"
 social:
   facebook: ""
   twitter: "https://twitter.com/serudda"
