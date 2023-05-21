@@ -42,6 +42,8 @@ const communitiesCollection = defineCollection({
         vimeo: z.string().optional(),
         tiktok: z.string().optional(),
         foursquare: z.string().optional(),
+        meetup: z.string().optional(),
+        eventbrite: z.string().optional(),
         rss: z.string().optional(),
         email: z.string().optional(),
         phone: z.string().optional(),

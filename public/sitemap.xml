@@ -9,20 +9,34 @@
   <url>
     <loc>https://simplus.website/</loc>
   </url>
+
   <url>
     <loc>https://simplus.website/communities</loc>
   </url>
   <url>
-    <loc>https://simplus.website/communities/indie-creators-hq</loc>
+    <loc>https://simplus.website/communities/cihispano</loc>
   </url>
   <url>
-    <loc>https://simplus.website/communities/paradigma-indie</loc>
+    <loc>https://simplus.website/communities/indiecreatorshq</loc>
   </url>
+  <url>
+    <loc>https://simplus.website/communities/paradigmaindie</loc>
+  </url>
+  <url>
+    <loc>https://simplus.website/communities/vuejsco</loc>
+  </url>
+
   <url>
     <loc>https://simplus.website/creators</loc>
   </url>
   <url>
+    <loc>https://simplus.website/creators/hardstone</loc>
+  </url>
+  <url>
     <loc>https://simplus.website/creators/imgildev</loc>
+  </url>
+  <url>
+    <loc>https://simplus.website/creators/malpicado</loc>
   </url>
   <url>
     <loc>https://simplus.website/creators/marcode</loc>

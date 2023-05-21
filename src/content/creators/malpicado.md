@@ -1,0 +1,46 @@
+---
+title: Malpicado
+meta_title: "Malpicado | A pickle learning programming from scratch"
+image: "https://pbs.twimg.com/profile_images/1445984910318133249/ZjiPfsHx_400x400.jpg"
+description: A pickle learning programming from scratch.
+tags: ["Spanish", "Global", "Entertainment", "Gaming", "Technology", "Education", "Programming"]
+social:
+  facebook: ""
+  twitter: "https://twitter.com/malpicado"
+  mastodon: ""
+  instagram: "https://www.instagram.com/malpicado/"
+  youtube: "https://www.youtube.com/malpicado"
+  linkedin: "https://www.linkedin.com/in/paul-suarez-7b72ab172/"
+  twitch: ""
+  github: ""
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: "https://www.tiktok.com/@malpicado"
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: "https://malpicado.com/"
+---
+
+I come from marketing, management and development of tech companies, I wanted to learn to program to streamline my work and create my own tools... and it led me to create content sharing my learning process with the community that continues to grow in each stream.

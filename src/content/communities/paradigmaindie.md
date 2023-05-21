@@ -35,6 +35,8 @@ social:
   vimeo: ""
   tiktok: ""
   foursquare: ""
+  meetup: ""
+  eventbrite: ""
   rss: ""
   email: ""
   phone: ""

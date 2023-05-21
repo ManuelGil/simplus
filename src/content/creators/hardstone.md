@@ -1,0 +1,46 @@
+---
+title: Paul Suarez
+meta_title: "HardStone | Web Designer, Web Developer, HTML CSS Gamer"
+image: "https://media.licdn.com/dms/image/C4E03AQGmCDdcURlZJA/profile-displayphoto-shrink_100_100/0/1581430512187?e=1689811200&v=beta&t=y1HReb1LM1hES6zKXCC6f2HBNeOPTEEccY3yu7axmdQ"
+description: Web Designer, Web Developer, HTML CSS Gamer.
+tags: ["Spanish", "Colombia", "Music", "Gaming", "Technology", "Design", "Arts"]
+social:
+  facebook: ""
+  twitter: ""
+  mastodon: ""
+  instagram: ""
+  youtube: ""
+  linkedin: "https://www.linkedin.com/in/paul-suarez-7b72ab172/"
+  twitch: ""
+  github: ""
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: "https://www.behance.net/hardstonepaul"
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: ""
+---
+
+I convert sketches to Designs, Designs to Code. All ideas are welcome
