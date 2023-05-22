@@ -14,7 +14,7 @@ social:
   youtube: "https://www.youtube.com/@vuejsco"
   linkedin: ""
   twitch: ""
-  github: ""
+  github: "https://github.com/vuejsco"
   gitlab: ""
   telegram: ""
   discord: ""
