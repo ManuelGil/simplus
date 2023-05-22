@@ -13,7 +13,7 @@ social:
   youtube: ""
   linkedin: "https://www.linkedin.com/in/franyer-rangel"
   twitch: "https://www.twitch.tv/elfrandeveloper"
-  github: "https://github.com/FranyerRange"
+  github: "https://github.com/FranyerRangel"
   gitlab: ""
   telegram: ""
   discord: ""
