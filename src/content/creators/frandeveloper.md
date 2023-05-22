@@ -1,0 +1,47 @@
+---
+title: Frandeveloper
+meta_title: "Frandeveloper | ☺️ Cristiano 🔴 Streamer (FranyerOne) (ElFrandeveloper) 💻 Aprendiendo Frontend 🚀 #SubirDeNivel Forever!"
+image: "https://pbs.twimg.com/profile_images/1644770898124103680/EEqirgLy_400x400.jpg"
+description: ☺️ Cristiano 🔴 Streamer (FranyerOne) (ElFrandeveloper) 💻 Aprendiendo Frontend 🚀 #SubirDeNivel Forever!
+tags: ["Spanish", "Latam", "Technology", "Frontend", "HTML", "CSS", "JavaScript"]
+keywords: "Spanish, Latam, Technology, Frontend, HTML, CSS, JavaScript, frandeveloper, Streamer, SubirDeNivel"
+social:
+  facebook: ""
+  twitter: "https://twitter.com/Frandeveloper3"
+  mastodon: ""
+  instagram: "https://www.instagram.com/frandeveloper"
+  youtube: ""
+  linkedin: "https://www.linkedin.com/in/franyer-rangel"
+  twitch: "https://www.twitch.tv/elfrandeveloper"
+  github: "https://github.com/FranyerRange"
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: "https://www.tiktok.com/@frandeveloper"
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: ""
+---
+
+☺️ Cristiano 🔴 Streamer (FranyerOne) (ElFrandeveloper) 💻 Aprendiendo Frontend 🚀 #SubirDeNivel Forever!

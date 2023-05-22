@@ -1,0 +1,47 @@
+---
+title: Samuel Burbano
+meta_title: "Samuel Burbano | 😎 Software Developer / 🤩 Web Enthusiast / 💛 JavaScript Wizard / 🐧 Penguins"
+image: "https://pbs.twimg.com/profile_images/1511714543361273863/d_z-vdpf_400x400.jpg"
+description: 😎 Software Developer / 🤩 Web Enthusiast / 💛 JavaScript Wizard / 🐧 Penguins
+tags: ["Spanish", "Latam", "Technology", "Education", "Software"]
+keywords: "Spanish, Latam, Technology, Education, Software, Samuel Burbano, iosamuel, Software Developer, Web Enthusiast, JavaScript Wizard, Penguins"
+social:
+  facebook: "https://www.facebook.com/iosamuel.dev"
+  twitter: "https://twitter.com/iosamuel"
+  mastodon: ""
+  instagram: ""
+  youtube: "https://www.youtube.com/iosamuel"
+  linkedin: "https://www.linkedin.com/in/iosamuel"
+  twitch: "https://www.twitch.tv/iosamuel"
+  github: "https://github.com/iosamuel"
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: "https://iosamuel.dev"
+---
+
+😎 Software Developer / 🤩 Web Enthusiast / 💛 JavaScript Wizard / 🐧 Penguins
