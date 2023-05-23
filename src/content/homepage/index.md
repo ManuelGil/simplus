@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Welcome to Simplus: Your Platform for Exploration, Connection, and Growth!"
+  title: "Simplus is your platform to explore, connect and grow."
   content: "At Simplus, our mission is simple: to connect communities and empower creators. Uncover and join vibrant communities, establish connections with fellow creators, and amplify your own presence. Seamlessly bridging the gap between individuals is our expertise."
   image: "/images/banner.png"
   button:
