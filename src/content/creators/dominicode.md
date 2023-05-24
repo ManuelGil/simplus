@@ -1,0 +1,47 @@
+---
+title: DOMINICODE
+meta_title: "DOMINICODE | Community and programming"
+image: "https://pbs.twimg.com/profile_images/1605980176264871947/1FPYGMXa_400x400.png"
+description: DOMINICODE is a Community and programming.
+tags: ["Spanish", "Global", "Technology", "Education", "Angular"]
+keywords: "Spanish, Global, Technology, Education, Angular, Dominicode, Bezael Pérez, Community, programming"
+social:
+  facebook: ""
+  twitter: "https://twitter.com/domini_code"
+  mastodon: ""
+  instagram: "https://instagram.com/domini_code"
+  youtube: ""
+  linkedin: "https://www.linkedin.com/in/dominicode"
+  twitch: "https://www.twitch.tv/dominicode_live"
+  github: "https://github.com/domini-code"
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: "dominicode.contacto@gmail.com "
+  phone: ""
+  address: ""
+  skype: ""
+  website: "https://dominicode.com"
+---
+
+Programming community for all Spanish-speaking countries.
