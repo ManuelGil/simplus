@@ -1,0 +1,47 @@
+---
+title: Daniel Esteves
+meta_title: "Daniel Esteves | Co-Founder & CTO @kazelacademy. Passionate about leveraging frontend, React / Remix / Next.js, and a bit of backend to build wonderful projects"
+image: "https://avatars.githubusercontent.com/u/31737273?u=92a93feaed2044a6059901d683313532cb17602c&v=4"
+description: Daniel Esteves is a Co-Founder & CTO @kazelacademy. Passionate about leveraging frontend, React / Remix / Next.js, and a bit of backend to build wonderful projects.
+tags: ["Spanish", "Latam", "Technology", "Education"]
+keywords: "Spanish, Latam, Technology, Education, danestves, Daniel Esteves, Web Developer, Frontend Dev, Frontend, React, Remix, Next.js"
+social:
+  facebook: ""
+  twitter: "https://twitter.com/danestves"
+  mastodon: ""
+  instagram: ""
+  youtube: "https://www.youtube.com/@danestves"
+  linkedin: ""
+  twitch: ""
+  github: "https://github.com/danestves"
+  gitlab: ""
+  telegram: ""
+  discord: ""
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: ""
+---
+
+Co-Founder & CTO @kazelacademy. Passionate about leveraging frontend, React / Remix / Next.js, and a bit of backend to build wonderful projects.
