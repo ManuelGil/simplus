@@ -1,0 +1,47 @@
+---
+title: José Grillo
+meta_title: "José Grillo | True synergy is born in breaking paradigms and working as a team, creating a virtuous circle in which the success of one is the success of all"
+image: "https://pbs.twimg.com/profile_images/601746523035201536/BmBXe1lU_400x400.jpg"
+description: José Grillo is a True synergy is born in breaking paradigms and working as a team, creating a virtuous circle in which the success of one is the success of all.
+tags: ["Spanish", "Venezuela", "Technology", "Lifestyle", "Travels", "Next.js", "React", "Node", "Mongo", "Solidity"]
+keywords: "Spanish, Venezuela, Technology, Lifestyle, Travels, Next.js, React, Node, Mongo, Solidity, José Grillo"
+social:
+  facebook: ""
+  twitter: "https://twitter.com/grillojg"
+  mastodon: ""
+  instagram: ""
+  youtube: ""
+  linkedin: ""
+  twitch: ""
+  github: ""
+  gitlab: ""
+  telegram: ""
+  discord: "https://discord.gg/CkbQ5XUM5w"
+  slack: ""
+  medium: ""
+  devto: ""
+  codepen: ""
+  bitbucket: ""
+  dribbble: ""
+  behance: ""
+  pinterest: ""
+  soundcloud: ""
+  spotify: ""
+  anchor: ""
+  tumblr: ""
+  reddit: ""
+  vk: ""
+  whatsapp: ""
+  snapchat: ""
+  vimeo: ""
+  tiktok: ""
+  foursquare: ""
+  rss: ""
+  email: ""
+  phone: ""
+  address: ""
+  skype: ""
+  website: "https://josegrillo.vercel.app"
+---
+
+True synergy is born in breaking paradigms and working as a team, creating a virtuous circle in which the success of one is the success of all.
