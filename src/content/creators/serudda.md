@@ -1,10 +1,10 @@
 ---
-title: Serudda
-meta_title: "Serudda | Frontend Dev + UX/UI Designer"
-image: "https://pbs.twimg.com/profile_images/1645933911514681345/zrDbFWCT_400x400.jpg"
-description: Serudda is a Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR.
-tags: ["Spanish", "Colombia", "Technology"]
-keywords: "Spanish, Colombia, Technology, Serudda, Frontend Dev, UX/UI Designer, Creating with the community, Twitch, Developer, User Experience, User Interface, Design, Web Development, Professional Development, Career Growth, Coding, Programming, Frontend Design, Community Collaboration"
+title: Sergio Ruiz
+meta_title: "Sergio Ruiz | Frontend Dev + UX/UI Designer"
+image: "https://res.cloudinary.com/dwf8hcgus/image/upload/v1684850170/serudda/Serudda_-_Stream_y4nwgf.png"
+description: Sergio Ruiz is a Frontend Dev + UX/UI Designer - I try to be the SENIOR, I needed when I was a JUNIOR.
+tags: ["Spanish", "Hispanics", "Technology", "Side Projects"]
+keywords: "Spanish, Hispanics, Technology, Side Projects, Sergio Ruiz, Serudda, Frontend Dev, UX/UI Designer, Creating with the community, Twitch, Developer, User Experience, User Interface, Design, Web Development, Professional Development, Career Growth, Coding, Programming, Frontend Design, Community Collaboration"
 social:
   facebook: ""
   twitter: "https://twitter.com/serudda"
@@ -16,7 +16,7 @@ social:
   github: "https://github.com/serudda"
   gitlab: ""
   telegram: ""
-  discord: "https://discord.com/invite/77guznJ8mZ"
+  discord: "https://indiecreatorshq.com/discord"
   slack: ""
   medium: ""
   devto: ""
