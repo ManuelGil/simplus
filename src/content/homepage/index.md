@@ -20,7 +20,7 @@ features:
     - "Creative Connections: Join our expansive Global Creators List and forge meaningful connections with like-minded individuals."
     - "Enhanced Visibility: Utilize our SEO optimization strategies to elevate your content or community's visibility and impact."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "/communities"
 
